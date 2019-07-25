@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Kliens
+		</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="buttonClick.js"></script>
+
+	</head>
+	<body class="bg-secondary">
+		<div class="jumbotron text-center">
+			<h1>Client Page</h1>
+			<p>Send new data to the server or request one from it.</p> 
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="card bg-info text-white">
+							<div class="card-header">Input</div>
+							<div class="card-body">
+							<p>Name:</p>
+							<input type="text" name="inputText" id="inputTextName"></br>
+							<p>Role:</p>
+							<input type="text" name="inputText" id="inputTextRole">
+							</div>
+							<div class="card-footer">
+							<button type="button" id="post">Send</button>
+							</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="card bg-info text-white">
+						<div class="card-header">Output</div>
+						<div class="card-body">
+						<p>ID:</p>
+						<input type="text" name="outputID" id="outputTextId">
+						</div>
+						<div class="card-footer">
+						<button type="button" id="get">Get</button>
+						<p class="outputDataText" id="outputP">Output:</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
