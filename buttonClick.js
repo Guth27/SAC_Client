@@ -35,7 +35,7 @@ $(document).ready(function() {
 				employeeRole: roleText
 			},
 			success: function(data){
-				alert("Data sent successfully!");
+				alert("Data sent successfully (Actual)!");
 			},
 			error: function(xhr, ajaxOptions, thrownError){
 				alert(xhr.responseText + "\n" + xhr.status + "\n" + thrownError);
